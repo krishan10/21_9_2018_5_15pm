@@ -12,7 +12,7 @@
             {{Form::textarea('sub_topics_content', $note->sub_topics_content, ['class' => 'form-control ckeditor', 'placeholder' => 'Enter Notes Here'])}}
         </div>
 
-        
+        <!-- wsgjhg -->
         {{Form::hidden('_method', 'PUT')}}
         {{Form::submit('Update', ['class' => 'btn btn-primary'])}}
         <a href="/notes/{{$note->sub_topics_id}}" class = "btn btn-danger float-right">Back</a>
